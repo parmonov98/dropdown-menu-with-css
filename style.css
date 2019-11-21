@@ -1,0 +1,44 @@
+nav ul ul{background: #201809;
+border-radius:2px;
+padding:0;
+position: absolute; 
+top: 97%;
+display: none;
+
+}
+
+nav ul li:hover > ul{
+
+display: block;
+}
+
+nav ul{font-size: 120%;
+padding: 0px 2px; 
+list-style:none;
+display: inline-table;
+border-radius: 6px;
+position: relative;
+
+}
+
+nav ul li{
+transition: .5s;
+color: white;
+float: left;
+}
+nav ul li:hover{
+
+border-radius: 6px;
+background: #112221;
+}
+nav ul li:hover a{
+color: #e4f4fe;
+}
+
+nav ul li a{text-decoration: none; 
+padding: 15px 20px;
+display: block;
+}
+nav ul ul li{
+float: none;
+}
